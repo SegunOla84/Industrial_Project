@@ -1,0 +1,102 @@
+/**/
+
+@import "index.css";
+
+#contactcontent{
+		border:0px splid green;
+		background-image: url("../images/internal2.jpg");
+		background-repeat:no-repeat;
+		background-size:cover;
+		height: 1300px;
+		
+		
+}
+@media (max-width:768px){
+						#contactcontent{	
+						flex-direction: column;
+						}
+						.navr{
+							width:100%;	
+						}
+					}
+
+#textform{
+		border:0px solid yellow;
+		width: 70%;
+		height:796px;
+		padding:70px;
+		margin-top: 0px;
+		margin-left: 100px;
+		display:flex;
+		justify-content: space-between;
+}
+
+.form{
+		border:0px solid red;
+		width:600px;
+		height:700px;
+		margin: 10px;
+		background-color:rgb(245,245,220,0.4);
+		padding: 10px;
+		font-family: 'Noto Serif JP', serif;
+		color: #000;
+		text-shadow: 2px 2px 2px rgb(8,154,255);
+	
+}
+
+#formdiv{
+		border: 0px solid white;
+		height:700px;
+		width: 600px;
+		margin-left: 50px;
+		background-color:rgb(245,245,220,0.4);
+		text-align: center;
+		font-family: arial, verdana, calibri, san-serif;
+		padding: 8px;
+	
+}
+
+#address{
+		color: rgb(0,0,0);
+		background-color: rgb(245,245,220,0.4);
+	
+}
+
+#map{
+		border: 0px solid black;
+		width:700px;
+		height:250px;
+		margin-left: 300px;
+		padding:20px;
+}
+@media (max-width:768px){
+						#map{	
+						flex-direction: column;
+						}
+						.mapu{
+							width:100%;	
+						}
+					}
+
+#ab{		
+		background-color:#261c15;
+		color:white;
+		padding:10px;
+		border-radius:25% 35%;
+		text-decoration:none;
+		
+	
+	
+}
+
+#ma{
+		border:0px solid black;
+		width:600px;
+		height:230px;
+		margin-left: 60px;
+	
+}
+
+#fo{
+	font-family: 'Noto Serif JP', serif;
+}

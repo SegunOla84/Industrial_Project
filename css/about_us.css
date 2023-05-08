@@ -1,0 +1,155 @@
+/**/
+
+
+
+@import "index.css";
+
+div{
+	border:0px solid black;
+	height: 1000px;
+	
+}
+#aboutdiv{
+	border: 0px solid yellow;
+	height:1000px;
+	background-image:url("../images/ab.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+@media (max-width:768px){
+						#aboutdiv{	
+						flex-direction: column;
+						}
+						.navr{
+							width:100%;	
+						}
+					}
+
+#cont{
+		border:0px solid red;
+		height: 800px;
+		
+	
+}
+
+@media (max-width:768px){
+						#cont{	
+						flex-direction: column;
+						}
+						.navr{
+							width:100%;	
+						}
+					}
+
+#backimg{
+		border:0px solid brown;
+		background-color: Red;
+		height: 650px;
+		width: 950px;
+		margin-top:0px;
+		position:relative;
+		top:0px;
+		padding:50px;
+		
+}
+
+#u{
+	text-shadow: 2px 2px 2px rgb(8,154,255);
+	color: white;
+	font-size: 30px;
+}
+
+.ut{
+	
+	text-shadow: 2px 2px 2px rgb(8,154,255);
+	color: white;
+	font-size: 15px;
+	font-family: 'Poppins', sans-serif;
+	
+}
+		
+#director{		
+		border:0px solid black;
+		width:40%;
+		height:600px;
+		background-image:url("../images/dd.jpg");
+		position: relative;
+		top:opx;
+		margin-left:650px;
+		margin-top: -500px;
+		background-repeat:no-repeat;
+		background-size:cover;
+
+}
+
+#abouttext{
+		border:0px solid black;
+		width:100%;
+		height: 550px;
+		display:flex;
+		justify-content: space-around;
+}
+
+.dir{
+		border:0px solid yellow;
+		width:500px;
+		height:430px;
+		margin-top:50px;
+		padding:10px;
+}
+h1{	
+		font-size: 15px;
+		font-family:'Poppins', sans-serif;
+	
+	
+}
+.md{
+		font-family: 'Poppins', sans-serif;
+		font-size: 20px;
+	
+}
+
+#positiontext{
+		border: 0px solid black;
+		width:50%;
+		height: 350px;
+		margin-top: 100px;
+		
+		display: wrap;
+	
+	
+}
+
+#potext{
+		letter-spacing: 3px;
+		font-family: 30px;
+		text-shadow: 2px 2px 2px rgb(8,154,255);
+		color: white;
+	
+}
+#conthead{
+		border: 0px solid black;
+		height: 100px;
+		width:100%;
+		text-align: center;
+		padding-top: 5px;
+		
+		
+}
+
+#abouttop{
+	
+		font-size: 50px;
+		color: red;
+		text-shadow: 2px 2px 2px rgb(8,154,255);
+			
+}
+.overlay{
+	background-color: rgba(0,0,0, 0.3);
+}
+
+#fo{
+	font-family: 'Noto Serif JP', serif;
+}

@@ -1,0 +1,275 @@
+/**/
+ 
+
+#parentdiv{
+	border:0px solid red;
+	min-height: 200px;
+}
+
+#head1{
+	border:0px solid red;
+	height: 30px;
+	background-color: rgb(0,61,144,0.9);
+}
+#nav{
+	border:0px solid rgb(8,154,255);
+	background-color: rgb(0,61,144,0.9);
+	height:110px;
+	display: flex;
+	justify-content: space-around;
+	position: sticky;
+	top: 0px;
+	
+}
+
+
+#nav1{
+	border:0px solid black;
+	width:30%;
+	padding:0px;
+	margin-left: 20px;
+	margin-bottom:35px;
+	height:200px;
+	
+}
+
+#nav2{
+	border:0px solid black;
+	width:600px;
+	padding:30px;
+	margin-right:10px;
+	text-decoration:none;
+	font-family: 'Noto Serif JP', serif;
+	height:200px;
+	
+}
+
+ul li{
+		display: inline-block;
+		margin:15px;
+		font-family: 'Noto Serif JP', serif;
+	
+}
+#content{
+	border:0px solid yellow;
+	height: 1000px;
+	width:100%;
+	background-image:url("../images/home.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+@media (max-width:768px){
+						#content{	
+						flex-direction: column;
+						}
+						.navr{
+							width:100%;	
+						}
+					}
+
+#textdiv1{
+	border:0px solid rgb(8,154,255);
+	height: 35px;
+	padding:40px;
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Poppins', sans-serif;
+	color: #f5f5dc;
+	
+	
+	
+}
+#text{
+	border:0px solid black;
+	width:650px;
+	margin: auto;
+	padding:10px;
+	margin-top: 30px;
+	font-size: 20px;
+	font-family: 'Poppins', sans-serif;
+	color: #f5f5dc;
+}
+
+#textdiv2{
+	border:0px solid black;
+	height: 200px
+}
+
+#stick{
+		border: 0px solid green;
+		width: 40px;
+		height: 300px;
+		margin-top: -150px;
+		position: fixed;
+		right:0;
+	
+}
+
+#text1{
+	width:650px;
+	margin: auto;
+	color: #f5f5dc;
+	font-size: 60px;
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+	margin-top: 20px;
+	
+}
+#textdiv3{
+	border:0px solid yellow;
+	padding: 10px;
+	text-align: center;
+	font-size: 80px;
+	font-family: 'Poppins', sans-serif;
+	color: rgb(245,245,220,0.4);
+	margin-top: 390px;
+	
+}
+
+ul li a{
+	text-decoration: none;
+	color: rgb(245,245,220);
+}
+ul li{
+	text-decoration: none;
+	color: rgb(245,245,220);
+}
+#content2{
+	border:0px solid blue;
+	background-color: #fff;
+	height:1450px;
+}
+#text3{
+	text-align: center;
+	padding:20px;
+	font-size:25px;
+	color: rgb(0,0,0);
+	font-family: 'Poppins', sans-serif;
+	text-shadow: 2px 2px 2px rgb(8,154,255);
+}
+#textdiv4{
+	border:0px solid red;
+	
+}
+
+#text4{
+	border:0px solid green;
+	text-align: center;
+	font-size: 60px;
+	margin-top:-20px;
+	font-family:prata, serif;
+	color: red;
+	text-shadow: 2px 2px 2px rgb(8,154,255);
+}
+.text5{
+	text-align: center;
+	color: rgb(0,0,0);
+	font-size: 15px;
+	text-shadow: 0px 0px 1px rgb(8,154,255);
+	font-family: 'Poppins', sans-serif;
+	
+	text-align:center;
+}
+#projects{
+	border:0px solid yellow;
+	height: 700px;
+	padding-left: 10px;
+	font-family: 'Poppins', sans-serif;
+	font-size:9px;
+	color:red;
+	text-shadow: 1px 1px 1px rgb(8,154,255);	
+	
+}
+
+#projects h2{
+	box-shadow:4px 2px 3px rgb(8,154,255);
+	width: 200px;
+	font-family: 'Poppins', sans-serif;
+	color:red;
+	text-shadow:2px 2px 2px rgb(8,154,255);
+}
+
+#display{
+	border:0px solid blue;
+	height:250px;
+	display:flex;
+	justify-content: space-around;
+	
+}
+
+@media (max-width:768px){
+						#display{	
+						flex-direction: column;
+						}
+						.gallery{
+							width:100%;	
+						}
+					}
+
+.gallery{
+	border:0px solid red;
+	width: 250px;
+	height:250px;
+	margin-left: 5px;
+	
+}
+
+#display2{
+	border:0px solid black;
+	height:300px;
+	display:flex;
+	justify-content: space-around;
+	margin-top: 50px;
+}
+
+@media (max-width:768px){
+						#display2{	
+						flex-direction: column;
+						}
+						.gallery{
+							width:100%;	
+						}
+					}
+
+#footer{
+	border: 0px solid black;
+	height: 230px;
+	background-color:rgb(0,61,144,0.9);
+	padding:2px;
+	margin-bottom:30px;
+	font-family: 'Bonheur Royale', cursive;
+}
+h2{
+	font-family: 'Bonheur Royale', cursive;
+}
+.gallery img:hover{
+	height:310px;
+	width:300px;
+	margin:auto;
+	transition: 5s;
+	
+}
+.gallname{
+	border:0px solid green;
+	height: 300px;
+	width: 400px;
+	display: none;
+}
+
+.gallery img{
+	border: 0px solid red;
+	height: 150px;
+	width: 200px;
+	
+	
+}
+
+.overlay{
+	background-color: rgba(0,0,0, 0.3);
+}
+
+#fo{
+	font-family: 'Poppins', sans-serif;
+}
+
